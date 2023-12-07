@@ -1,2 +1,1 @@
-Este es un texto de prueba!!
-- F. J. Luco
+Repositorio con todo el trabajo realizado para bootcamp de desarrollo web por Coding Dojo
