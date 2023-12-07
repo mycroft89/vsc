@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    border: 0;    
+}
+
+a:link {
+    /* unvisited link */
+    color: #17a2b8;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #17a2b8;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #17a2b8;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #17a2b8;
+  }
+
+.container {
+    background-color: white;
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+    border: 3px solid rgb(182, 180, 180);
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #17a2b8;
+    height: 100px;
+}
+
+.principal {
+    padding-top: 20px;
+    background-color: white;
+}
+
+.principal img {
+    width: 100px;
+}
+
+.locationInfo {
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+}
+
+.locationInfo img {
+    width: 15px;
+}
+
+.bio {
+    /*background-color: green;*/
+}
+
+.editProfile {
+    /*background-color: yellow;*/
+    color: #17a2b8;
+}
+
+.editProfile img {
+    width: 20px;
+}

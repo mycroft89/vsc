@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form action="/process" method="post">
+        <h1>Registration Form</h1>
+        
+        <div>
+            <label>First Name: *</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Last Name: *</label>
+            <input type="text">
+        </div>
+        
+        <div>
+            <label>Email Address: *</label>
+            <input type="email">
+        </div>
+    
+        <div>
+            <label>Password: *</label>
+            <input type="password">
+        </div>
+        
+        <div>
+            <label>Confirm Password: *</label>
+            <input type="password">
+        </div>
+        
+        <div>
+            <label>Birthday:</label>
+            <input type="date">
+        </div>
+        
+        <div>
+            <label>Gender Identity:</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Male</label>
+
+            <input type="radio" name="gender">
+            <label for="gender">Female</label>
+
+            <input type="radio" name="gender">
+            <label for="gender">Non-binary</label>
+
+            <input type="radio" name="gender">
+            <label for="gender">I prefer not to answer</label>
+        </div>
+        
+        <div>
+            A short description about myself:
+            <br>
+            <textarea name="textarea" id="textarea" cols="30" rows="3"></textarea>
+        </div>
+        
+        <div>
+            Favorite Language:
+            <select name="favorite_language">
+            <option>JavaScript</option>
+        </div>
+        
+        <div>
+            <select name="periodic_updates">
+            <input type="checkbox">
+            <label>Yes I would like to receive periodic email updates</label>
+        </div>
+        
+        <div>
+            <input type="submit" value="Create account">
+        </div>
+        
+        <div>
+            *Indicates a required field
+        </div>
+    </form>
+</body>

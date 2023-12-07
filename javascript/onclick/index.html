@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1 class="title">Dojonary</h1>
+            <input type="text" placeholder="Search" class="search">
+            <button class="button" onclick="login(this)">Login</button>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <div class="box definicion">
+                    <div class="izquierda">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="button-like" onclick="alerta()"> 13 likes</button>
+                    </div>
+                    <p>A practitioner skilled in the <a href="#Japanese">Japanese</a>  art of <a href="#ninjutsu">ninjutsu</a> </p>
+                </div>
+
+                <div class="box definicion">
+                    <div class="izquierda">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninja</p>
+                        <button class="button-like" onclick="alerta()"> 37 likes</button>
+                    </div>
+                    <p>A <a href="#prgrama">programmer</a>  who breaks down problems with <a href="#zen">zen</a>-like focus</p>
+                </div>
+            </div>
+
+            <div class="col-1">
+                <div class="box">
+                    <h2> Dojonary is defined by YOU</h2>
+                    <button class="button-add" onclick="esconder(this)" >Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

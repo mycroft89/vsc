@@ -1,0 +1,34 @@
+div {
+    background-image: url(teniente_dan.jpg)
+}
+
+.video {
+    width: 500px;
+    border: 2px solid red;
+    overflow: scroll;
+}
+
+#my_id {
+    widht: 500px;
+    border: 2px solid blue;
+}
+
+/*SELECTORES
+
+ETIQUETA HTML $1
+CLASE $10
+ID $100*/
+
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+}
+    
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+

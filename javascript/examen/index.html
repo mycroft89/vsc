@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="lineaMorada"></div>
+    <div class="banner">
+        <h1>Gaming<span style="color: #643396;">Dojo</span></h1>
+        <ul class="navegador">
+            <select name="Choose currency" class="divisas">
+                <option>Euro €</option>
+                <option>Dollar $</option>
+            </select>
+            <li><img src="img/cart-light.png" alt="carrito de compras"></li>
+            <li><span id="contador">0</span></li>
+            <li><img src="img/search-light.png" alt="lupa"></li>
+        </ul>
+    </div>   
+    <div class="contenido">
+        <h3>Highlights</h3>
+        <div class="carrusel">
+            <div class="back"><img src="img/chevron-left.png" id="back" alt="left arrow"></div>
+            <div class="fotosCarrusel" id="img">
+                <img src="img/stonepunk.png" alt="stonepunk" class="imgCarrusel"></div>
+            <div class="forward"><img src="img/chevron-right.png" id="forward" alt="right arrow"></div>
+        </div>
+        <div class="puntos" id="puntos"></div>
+        <div class="listaJuegos">
+            <div class="cafeNeko">
+                <img src="img/cafe-neko.png" alt="cafe neko">
+                <div class="descripcionJuego">
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <div class="iconosOS">
+                        <img src="img/windows.png" alt="windows">
+                        <img src="img/apple.png" alt="macOS">
+                    </div>
+                    <div class="compras">
+                        <button class="botonMorado">-20%</button>
+                        <div class="precios">
+                            <div class="precioAntiguo">€14.98</div>
+                            <h3>€10.49</h3>
+                        </div>
+                        <button class="botonVerde aumentarContador">Buy</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="pixelNinjas">
+                <img src="img/pixel-ninjas-2.png" alt="pixel ninjas 2">
+                <div class="descripcionJuego">
+                    <h3>Pixel Ninjas 2</h3>
+                    <div class="iconosOS">
+                        <img src="img/windows.png" alt="windows">
+                        <img src="img/apple.png" alt="macOS">
+                    </div>
+                    <div class="compras">
+                        <button class="botonMorado">-10%</button>
+                        <div class="precios">
+                            <div class="precioAntiguo">€8.19</div>
+                            <h3>€7.39</h3>
+                        </div>
+                        <button class="botonVerde aumentarContador">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="stonePunk">
+                <img src="img/stonepunk.png" alt="stonepunk 10000 bce">
+                <div class="descripcionJuego">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <div class="iconosOS">
+                        <img src="img/windows.png" alt="windows">
+                        <img src="img/apple.png" alt="macOS">
+                        <img src="img/linux.png" alt="linux" id="alerta">
+                    </div>
+                    <div class="compras">
+                        <button class="botonMorado">NEW</button>
+                        <div class="precios">
+                            <h3>€9.99</h3>
+                        </div>
+                        <button class="botonVerde aumentarContador">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
